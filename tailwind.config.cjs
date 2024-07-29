@@ -38,7 +38,7 @@ module.exports = {
         wit: "#FFFFFF",
         zwart: "#000",
         beige: "#EFE7DE",
-        lichtgroen: "#8CC63F",
+        lichtgroen: "#07773C",
         groen: "#438645",
         mosgroen: "#183E0A",
         donkergroen: "#0A1F16",

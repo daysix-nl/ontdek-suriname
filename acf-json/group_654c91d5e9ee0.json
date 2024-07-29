@@ -41,46 +41,6 @@
             "toolbar": "full",
             "media_upload": 0,
             "delay": 0
-        },
-        {
-            "key": "field_654c92941119c",
-            "label": "Titel",
-            "name": "titel_nasluitingstijd",
-            "aria-label": "",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "Na 14:00 een dringende vraag?",
-            "maxlength": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": ""
-        },
-        {
-            "key": "field_654c92be1119d",
-            "label": "Tekst",
-            "name": "tekst_nasluitingstijd",
-            "aria-label": "",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "Stuur even een mail!\r\nklantenservice@freeks.nl",
-            "tabs": "all",
-            "toolbar": "full",
-            "media_upload": 0,
-            "delay": 0
         }
     ],
     "location": [
@@ -101,5 +61,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1699517507
+    "modified": 1722254632
 }

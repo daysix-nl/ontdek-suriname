@@ -32,18 +32,7 @@ $link4_url = isset($link4['url']) ? esc_url($link4['url']) : '';
 $link4_text = isset($link4['title']) ? esc_html($link4['title']) : '';
 $link4_target = isset($link4['target']) ? esc_attr($link4['target']) : '';
 ?>
-<?php
-$link5 = get_field('link_kolom_5');
-$link5_url = isset($link5['url']) ? esc_url($link5['url']) : '';
-$link5_text = isset($link5['title']) ? esc_html($link5['title']) : '';
-$link5_target = isset($link5['target']) ? esc_attr($link5['target']) : '';
-?>
-<?php
-$link6 = get_field('link_kolom_6');
-$link6_url = isset($link6['url']) ? esc_url($link6['url']) : '';
-$link6_text = isset($link6['title']) ? esc_html($link6['title']) : '';
-$link6_target = isset($link6['target']) ? esc_attr($link6['target']) : '';
-?>
+
 <?php
 $image1 = get_field('afbeelding_kolom_1');
 $image1_url = isset($image1['url']) ? esc_url($image1['url']) : '';
@@ -64,20 +53,11 @@ $image4 = get_field('afbeelding_kolom_4');
 $image4_url = isset($image4['url']) ? esc_url($image4['url']) : '';
 $image4_alt = isset($image4['alt']) ? esc_attr($image4['alt']) : '';
 ?>
-<?php
-$image5 = get_field('afbeelding_kolom_5');
-$image5_url = isset($image5['url']) ? esc_url($image5['url']) : '';
-$image5_alt = isset($image5['alt']) ? esc_attr($image5['alt']) : '';
-?>
-<?php
-$image6 = get_field('afbeelding_kolom_6');
-$image6_url = isset($image6['url']) ? esc_url($image6['url']) : '';
-$image6_alt = isset($image6['alt']) ? esc_attr($image6['alt']) : '';
-?>
+
 
 
 <section class="h-[calc(100dvh-33px)] flex items-center bg-[#0A1F161A]">
-    <div class="grid grid-cols-1 lg:grid-cols-3 h-[calc(70dvh-33px)] md:h-[calc(100dvh-200px)] lg:h-[calc(100dvh-33px)] w-full pt-[62px] lg:pt-[unset] min-h-[550px]">
+    <div class="grid grid-cols-1 lg:grid-cols-2 h-[calc(70dvh-33px)] md:h-[calc(100dvh-200px)] lg:h-[calc(100dvh-33px)] w-full pt-[62px] lg:pt-[unset] min-h-[550px]">
         <a href="<?php echo $link1_url; ?>" id="home-item-1" class="col-span-1 w-full h-full lg:hover:bg-[#78B893]/60 flex items-center justify-center lg:block lg:relative" onmouseover="activateBackground(1)">
             <h2 class="text-55 leading-48 md:text-80 md:leading-66 lg:text-80 lg:leading-78 xl:text-80 xl:leading-78 font-tanker font-normal text-white lg:absolute lg:bottom-[65px] lg:left-[40px] xl:bottom-[40px] xl:left-[40px] lg:max-w-[300px] text-center lg:text-left" target="<?php echo $link1_target; ?>"><?php echo $link1_text; ?></h2>
         </a>
@@ -90,12 +70,7 @@ $image6_alt = isset($image6['alt']) ? esc_attr($image6['alt']) : '';
         <a href="<?php echo $link4_url; ?>" id="home-item-4" class="col-span-1 w-full h-full lg:hover:bg-[#78B893]/60 flex items-center justify-center lg:block lg:relative" onmouseover="activateBackground(4)">
             <h2 class="text-55 leading-48 md:text-80 md:leading-66 lg:text-80 lg:leading-78 xl:text-80 xl:leading-78 font-tanker font-normal text-white lg:absolute lg:bottom-[65px] lg:left-[40px] xl:bottom-[40px] xl:left-[40px] lg:max-w-[333px] text-center lg:text-left" target="<?php echo $link4_target; ?>"><?php echo $link4_text; ?></h2>
         </a>
-        <a href="<?php echo $link5_url; ?>" id="home-item-5" class="col-span-1 w-full h-full lg:hover:bg-[#78B893]/60 flex items-center justify-center lg:block lg:relative" onmouseover="activateBackground(5)">
-            <h2 class="text-55 leading-48 md:text-80 md:leading-66 lg:text-80 lg:leading-78 xl:text-80 xl:leading-78 font-tanker font-normal text-white lg:absolute lg:bottom-[65px] lg:left-[40px] xl:bottom-[40px] xl:left-[40px] lg:max-w-[300px] text-center lg:text-left" target="<?php echo $link5_target; ?>"><?php echo $link5_text; ?></h2>
-        </a>
-        <a href="<?php echo $link6_url; ?>" id="home-item-6" class="col-span-1 w-full h-full lg:hover:bg-[#78B893]/60 flex items-center justify-center lg:block lg:relative" onmouseover="activateBackground(6)">
-            <h2 class="text-55 leading-48 md:text-80 md:leading-66 lg:text-80 lg:leading-78 xl:text-80 xl:leading-78 font-tanker font-normal text-white lg:absolute lg:bottom-[65px] lg:left-[40px] xl:bottom-[40px] xl:left-[40px] lg:max-w-[300px] text-center lg:text-left" target="<?php echo $link6_target; ?>"><?php echo $link6_text; ?></h2>
-        </a>
+        
     </div>
 </section>
 <!-- ACHTERGRONDEN -->
@@ -141,26 +116,6 @@ $image6_alt = isset($image6['alt']) ? esc_attr($image6['alt']) : '';
 </div>
 
 
-<div class="bg-black absolute w-full h-full bg-cover top-0 left-0 right-0 bottom-0 z-[-1]" id="background-5" style="opacity: 0;">
-    <img src="<?php echo $image5_url; ?>" alt="<?php echo $image5_alt; ?>" class="w-full h-full object-cover object-center">
-    <video class="w-full h-full object-cover absolute top-0 right-0 -z-10 block lg:hidden" autoplay="" loop="" muted="" playsinline="">
-        <source src="<?php echo get_field('video_mobiel_blok_5');?>#t=0.001" type="video/mp4">
-    </video>
-     <video class="w-full h-full object-cover absolute top-0 right-0 -z-10 hidden lg:block" autoplay="" loop="" muted="" playsinline="">
-        <source src="<?php echo get_field('video_blok_5');?>#t=0.001" type="video/mp4">
-    </video>
-</div>
-
-
-<div class="bg-black absolute w-full h-full bg-cover top-0 left-0 right-0 bottom-0 z-[-1]" id="background-6" style="opacity: 0;">
-    <img src="<?php echo $image6_url; ?>" alt="<?php echo $image6_alt; ?>" class="w-full h-full object-cover object-center">
-    <video class="w-full h-full object-cover absolute top-0 right-0 -z-10 block lg:hidden" autoplay="" loop="" muted="" playsinline="">
-        <source src="<?php echo get_field('video_mobiel_blok_6');?>#t=0.001" type="video/mp4">
-    </video>
-     <video class="w-full h-full object-cover absolute top-0 right-0 -z-10 hidden lg:block" autoplay="" loop="" muted="" playsinline="">
-        <source src="<?php echo get_field('video_blok_6');?>#t=0.001" type="video/mp4">
-    </video>
-</div>
 
 
 <!-- DEFAULT -->
@@ -187,7 +142,7 @@ $image6_alt = isset($image6['alt']) ? esc_attr($image6['alt']) : '';
 <script>
 // Functie om de standaard achtergrond in te stellen (background-1)
 function setDefaultBackground() {
-    for (let i = 2; i <= 6; i++) {
+    for (let i = 2; i <= 4; i++) {
         document.getElementById(`background-${i}`).style.opacity = 0;
     }
 }

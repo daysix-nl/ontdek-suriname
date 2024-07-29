@@ -341,68 +341,8 @@ try {
   });
 } catch (error) { }
 
-try {
-  const filterButtons = document.querySelector(".filter-button-shop");
-  const filterModal = document.querySelector(".filter-shop-modal");
-  const filterClose = document.querySelector(".filter-close");
-  const filterModalOverlay = document.querySelector(".filter-overlay");
 
-  filterButtons.addEventListener("click", () => {
-    filterModal.classList.toggle("active");
-    filterModalOverlay.classList.toggle("active");
-  });
 
-  filterClose.addEventListener("click", () => {
-    filterModal.classList.toggle("active");
-    filterModalOverlay.classList.toggle("active");
-  });
-
-  filterModalOverlay.addEventListener("click", () => {
-    filterModal.classList.toggle("active");
-    filterModalOverlay.classList.toggle("active");
-  });
-} catch (error) { }
-
-try {
-  var swiperShop = new Swiper(".mySwiper-shop", {
-    slidesPerView: 1,
-    loop: true,
-    navigation: {
-      nextEl: ".swiper-button-next-shop",
-      prevEl: ".swiper-button-prev-shop",
-    },
-  });
-} catch (error) {
-  console.error(error);
-}
-
-try {
-  const overlayShopCart = document.querySelector(".sidecart-overlay");
-  const sidecart = document.querySelector("#sidecart-menu");
-  const sidecartClose = document.querySelector("#sidecart-close");
-  const sidecartButton = document.querySelectorAll(".sidecar");
-  const closeHandler = document.querySelector("#hamburger-menu");
-
-  for (let i = 0; i < sidecartButton.length; i++) {
-    sidecartButton[i].addEventListener("click", () => {
-      closeHandler.classList.add("hidden");
-      overlayShopCart.classList.toggle("sidecart-overlay-active");
-      sidecart.classList.toggle("sidecart-hidden");
-    });
-  }
-
-  overlayShopCart.addEventListener("click", () => {
-    overlayShopCart.classList.toggle("sidecart-overlay-active");
-    sidecart.classList.toggle("sidecart-hidden");
-  });
-
-  sidecartClose.addEventListener("click", () => {
-    overlayShopCart.classList.toggle("sidecart-overlay-active");
-    sidecart.classList.toggle("sidecart-hidden");
-  });
-} catch (error) {
-  console.error(error);
-}
 
 // try {
 //   var swiperfreekteam = new Swiper(".mySwiper-freekteam", {
@@ -455,67 +395,7 @@ try {
   popUp.addEventListener("click", closePopupAndSetCookie);
 } catch (error) { }
 
-try {
-  document.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll(".custom-quantity-input").forEach((input) => {
-      let timeout;
 
-      input.addEventListener("input", () => {
-        clearTimeout(timeout);
-        timeout = setTimeout(() => {
-          updateCartQuantity(input.dataset.cartItemKey, input.value);
-        }, 1000);
-      });
-    });
-  });
-
-  const updateCartQuantity = async (cartItemKey, quantity) => {
-    try {
-      const response = await fetch("/wp-admin/admin-ajax.php", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
-        },
-        body:
-          "action=update_cart_quantity&cart_item_key=" +
-          cartItemKey +
-          "&quantity=" +
-          quantity,
-      });
-
-      const data = await response.json();
-
-      if (data.success) {
-        const queryString = window.location.search;
-        const urlParams = new URLSearchParams(queryString);
-        const card = urlParams.get("cart_updated");
-        if (!window.location.href.includes("afrekenen") && !card) {
-          window.location = window.location.href + "?cart_updated=true";
-        } else {
-          window.location.reload();
-        }
-      } else {
-        console.error("Failed to update cart");
-      }
-    } catch (error) {
-      console.error("Error:", error);
-    }
-  };
-} catch (error) { }
-
-try {
-  window.addEventListener("load", () => {
-    const overlayShopCart = document.querySelector(".sidecart-overlay");
-    const sidecart = document.querySelector("#sidecart-menu");
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    const card = urlParams.get("cart_updated");
-    if (sidecart && card) {
-      sidecart.classList.remove("sidecart-hidden");
-      overlayShopCart.classList.add("sidecart-overlay-active");
-    }
-  });
-} catch (error) { }
 
 try {
   document.addEventListener("DOMContentLoaded", function () {

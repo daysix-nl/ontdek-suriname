@@ -68,7 +68,7 @@ $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
                             $link_text = isset($link['title']) ? esc_html($link['title']) : '';
                             $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
                             ?>
-                            <a href="<?php echo $link_url; ?>" class="w-[163px] h-[45px] lg:w-[240px] lg:h-[58.5px] bg-[#8CC63F] duration-300 flex justify-center items-center text-19 leading-19 lg:text-25 lg:leading-25 font-tanker font-normal text-white <?php echo get_sub_field('glow');?>" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
+                            <a href="<?php echo $link_url; ?>" class="w-[163px] h-[45px] lg:w-[240px] lg:h-[58.5px] bg-[#07773C] duration-300 flex justify-center items-center text-19 leading-19 lg:text-25 lg:leading-25 font-tanker font-normal text-white <?php echo get_sub_field('glow');?>" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
                             <?php
                             endwhile;
                         else :

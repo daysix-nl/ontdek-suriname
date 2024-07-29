@@ -4,12 +4,12 @@
  */
 
 
- get_header('home'); ?>
+ get_header(); ?>
 
 <main class="pt-[33px]">
 <?php the_content(); ?>
 </main>
-<?php get_footer('nofooter'); ?>
+<?php get_footer('empty'); ?>
 
 
 

@@ -46,7 +46,7 @@ if ($categorie) {
             ?>
             <a href="<?php the_permalink();?>" class="aspect-[16/13] relative overflow-hidden post">
                 <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="h-full w-full object-cover object-center hover-blur duration-200 bg-[#2B2828]">
-                <div class="hidden lg:block absolute hover:bg-gradient-to-b hover:from-[transparent] hover:to-[#8CC63F] top-0 left-0 right-0 bottom-0 z-[2] duration-200 overflow-hidden">
+                <div class="hidden lg:block absolute hover:bg-gradient-to-b hover:from-[transparent] hover:to-[#07773C] top-0 left-0 right-0 bottom-0 z-[2] duration-200 overflow-hidden">
                     <div class="relative h-full w-full">
                             <div class="absolute left-[25px] hover-content duration-200">
                             <h4 class="text-18 leading-18 lg:text-22 lg:leading-22 font-karlsen text-white font-normal uppercase tracking-wider pb-1"><?php echo get_field('subtitel', $post_id);?></h4>
@@ -67,7 +67,7 @@ if ($categorie) {
                         </div>
                     </div>
                 </div>
-                <div class="flex items-end lg:hidden bg-gradient-to-b from-[transparent] to-[#8CC63F] w-full h-[40%] absolute left-0 right-0 bottom-0 p-[15px] overflow-hidden">
+                <div class="flex items-end lg:hidden bg-gradient-to-b from-[transparent] to-[#07773C] w-full h-[40%] absolute left-0 right-0 bottom-0 p-[15px] overflow-hidden">
                     <h3 class="text-20 leading-20 font-karlsen font-normal text-white tracking-wider w-[500px] md:w-[500px] uppercase"><?php the_title();?></h3>
                     <div class="w-[40px] flex items-end justify-end pb-[3px]">
                         <svg class="h-[15px] lg:h-[31px]" width="auto" height="100%" viewBox="0 0 17.5283931 14.7362632" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -96,7 +96,7 @@ if ($categorie) {
     </div>
     <?php if ($show_load_more_button) : ?>
         <div class="flex justify-center pt-4">
-            <button class="w-[163px] h-[45px] lg:w-[240px] lg:h-[58.5px] bg-[#8CC63F] hover:bg-black duration-300 flex justify-center items-center text-19 leading-19 lg:text-25 lg:leading-25 font-tanker font-normal text-white button-posts">Laad meer</button>
+            <button class="w-[163px] h-[45px] lg:w-[240px] lg:h-[58.5px] bg-[#07773C] hover:bg-black duration-300 flex justify-center items-center text-19 leading-19 lg:text-25 lg:leading-25 font-tanker font-normal text-white button-posts">Laad meer</button>
         </div>
     <?php endif; ?>  
 </section>

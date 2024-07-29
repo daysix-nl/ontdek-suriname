@@ -1,7 +1,7 @@
 {
     "key": "ui_options_page_6580058e589a6",
     "title": "Stichting NWC",
-    "active": true,
+    "active": false,
     "menu_order": 0,
     "page_title": "Stichting NWC",
     "menu_slug": "stichting",
@@ -12,11 +12,12 @@
     "position": "",
     "redirect": 0,
     "description": "",
+    "menu_icon": [],
     "update_button": "Updaten",
     "updated_message": "Options Updated",
     "capability": "edit_posts",
     "data_storage": "options",
     "post_id": "",
     "autoload": 0,
-    "modified": 1702888897
+    "modified": 1722255179
 }

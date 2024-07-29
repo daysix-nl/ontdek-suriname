@@ -16,7 +16,7 @@ else: ?>
                     $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
                     ?>
                     <div class="w-full">
-                        <h6 class="text-[110px] leading-[110px] lg:text-[140px] lg:leading-[140px] font-tanker font-normal text-[#8CC63F] text-left md:text-center lg:text-left w-full block h-[140px] mb-[-90px]">“</h6>
+                        <h6 class="text-[110px] leading-[110px] lg:text-[140px] lg:leading-[140px] font-tanker font-normal text-[#07773C] text-left md:text-center lg:text-left w-full block h-[140px] mb-[-90px]">“</h6>
                         <h3 class="text-40 leading-37 lg:text-50 lg:leading-46 font-tanker font-normal text-color mt-[30px] line-clamp-5"><?php echo get_sub_field('quote');?></h3>
                        
                         <div class="flex items-center mt-3">
@@ -60,7 +60,7 @@ else: ?>
                     <div class="swiper-slide">
                         <div class="container">
                             <div class="w-full">
-                                <h6 class="text-[110px] leading-[110px] lg:text-[140px] lg:leading-[140px] font-tanker font-normal text-[#8CC63F] text-left md:text-center lg:text-left w-full block h-[140px] mb-[-90px]">“</h6>
+                                <h6 class="text-[110px] leading-[110px] lg:text-[140px] lg:leading-[140px] font-tanker font-normal text-[#07773C] text-left md:text-center lg:text-left w-full block h-[140px] mb-[-90px]">“</h6>
                                 <h3 class="text-40 leading-37 lg:text-50 lg:leading-46 font-tanker font-normal text-color mt-[30px] line-clamp-5"><?php echo get_sub_field('quote');?></h3>
                                 <div class="flex items-center mt-3">
                                     <div class="w-[103px] h-[103px] lg:w-[154px] lg:h-[154px] aspect-square rounded-full overflow-hidden">

@@ -10,21 +10,19 @@
     }
 
     input[type="submit"] {
-        background-color: #000;
+        background-color: #ECC81D;
         border: none;
         min-width: 100px !important;
         margin: 0 !important;
         font-size: 21px;
-        color: #fff;
+        color: #000;
         cursor: pointer;
         height: 50px !important;
         font-family: 'Tanker';
         transition: 0.3s;
 
         &:hover {
-            background-color: #8CC63F;
-            color: #fff;
-            transition: 0.3s;
+            opacity: 0.8;
         }
     }
 
@@ -71,7 +69,7 @@
     }
 
     input[type="submit"] {
-        background-color: #8CC63F;
+        background-color: #07773C;
         border: none;
         min-width: 100px !important;
         margin: 0 !important;
@@ -83,7 +81,7 @@
         transition: 0.3s;
 
         &:hover {
-            background-color: #8CC63F;
+            background-color: #07773C;
             color: #fff;
             transition: 0.3s;
         }
@@ -283,7 +281,7 @@ input[type=number] {
 
     input.gform_button {
         width: 100% !important;
-        background: #8cc63f !important;
+        background: #07773C !important;
         z-index: 1 !important;
         font-family: Tanker, sans-serif !important;
         font-size: 25px !important;
@@ -312,8 +310,8 @@ input[type=number] {
         height: 12px !important;
         width: 12px !important;
         border-radius: 2px !important;
-        border: 1px solid #8CC63F !important;
-        background: #8CC63F !important;
+        border: 1px solid #07773C !important;
+        background: #07773C !important;
         transition-duration: 0.3s !important;
         position: relative !important;
 
@@ -332,13 +330,13 @@ input[type=number] {
 
     input[type=radio]:checked {
         appearance: none !important;
-        background-color: #8CC63F !important;
+        background-color: #07773C !important;
         box-shadow: inset 0 0 0 2px #fff !important;
         margin: 0 !important;
-        color: #8CC63F !important;
+        color: #07773C !important;
         width: 13px !important;
         height: 13px !important;
-        border: 1px solid #8CC63F !important;
+        border: 1px solid #07773C !important;
         border-radius: 50% !important;
         transform: translateY(-0.075em) !important;
         margin-right: 0px !important;

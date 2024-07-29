@@ -208,7 +208,7 @@
                     },
                     "choices": {
                         "Nee": "Nee",
-                        "drop-shadow-[0px_0px_15px_#8CC63F]": "Ja"
+                        "drop-shadow-[0px_0px_15px_#07773C]": "Ja"
                     },
                     "default_value": false,
                     "return_format": "value",

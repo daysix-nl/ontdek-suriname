@@ -1,7 +1,7 @@
 {
     "key": "ui_options_page_654a874b9fb3a",
     "title": "Shop instellingen",
-    "active": true,
+    "active": false,
     "menu_order": 0,
     "page_title": "Shop instellingen",
     "menu_slug": "shop-instellingen",
@@ -12,11 +12,12 @@
     "position": 85,
     "redirect": 0,
     "description": "",
+    "menu_icon": [],
     "update_button": "Updaten",
     "updated_message": "Options Updated",
     "capability": "edit_posts",
     "data_storage": "options",
     "post_id": "",
     "autoload": 0,
-    "modified": 1699516827
+    "modified": 1722255176
 }

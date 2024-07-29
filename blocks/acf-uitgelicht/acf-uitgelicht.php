@@ -41,7 +41,7 @@ else: ?>
                                             <div class="text-14 leading-26 lg:text-16 lg:leading-[32px] font-karlsen font-normal text-color mt-[30px] text-editor"><?php echo get_sub_field('tekst');?></div>
                                             <?php endif; ?>
                                             <?php if (get_sub_field('link')): ?>   
-                                            <a href="<?php echo $link_url; ?>" class="w-[163px] h-[45px] lg:w-[240px] lg:h-[58.5px] bg-[#8CC63F] duration-300 flex justify-center items-center text-19 leading-19 lg:text-25 lg:leading-25 font-tanker font-normal text-white <?php echo get_sub_field('glow');?> mt-[30px]" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
+                                            <a href="<?php echo $link_url; ?>" class="w-[163px] h-[45px] lg:w-[240px] lg:h-[58.5px] bg-[#07773C] duration-300 flex justify-center items-center text-19 leading-19 lg:text-25 lg:leading-25 font-tanker font-normal text-white <?php echo get_sub_field('glow');?> mt-[30px]" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
                                             <?php endif; ?>
                                         </div>
                                     </div>
