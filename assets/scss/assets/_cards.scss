@@ -1,0 +1,105 @@
+.case-section.team-block.list-b-none .post,
+.show-section.team-block.list-b-none .post {
+
+
+    @media only screen and (max-width: 768px) {
+        &:nth-of-type(n+4) {
+            display: none !important;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        &:nth-of-type(n+5) {
+            display: none !important;
+        }
+    }
+
+}
+
+
+.team-section .team-block.list-b-none .post {
+
+
+    @media only screen and (max-width: 768px) {
+        &:nth-of-type(n+4) {
+            display: none !important;
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        &:nth-of-type(n+5) {
+            display: none !important;
+        }
+    }
+
+    @media only screen and (min-width: 1200px) {
+        &:nth-of-type(n+100) {
+            display: none !important;
+        }
+    }
+
+}
+
+.verhalen-section.team-block.list-b-none .post {
+
+
+    @media only screen and (max-width: 768px) {
+        &:nth-of-type(n+4) {
+            display: none !important;
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        &:nth-of-type(n+4) {
+            display: none !important;
+        }
+    }
+
+    @media only screen and (min-width: 1200px) {
+        &:nth-of-type(n+7) {
+            display: none !important;
+        }
+    }
+
+}
+
+.search-producten-section.team-block.list-b-none .post {
+    &:nth-of-type(n+5) {
+        display: none !important;
+    }
+
+    @media only screen and (max-width: 768px) {
+        &:nth-of-type(n+5) {
+            display: none !important;
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        &:nth-of-type(n+3) {
+            display: none !important;
+        }
+    }
+
+    @media only screen and (min-width: 1200px) {
+        &:nth-of-type(n+4) {
+            display: none !important;
+        }
+    }
+
+}
+
+.partners-hover {
+    &:hover {
+        div {
+            transition: all 0.3s ease-in-out;
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    div {
+        transition: all 0.3s ease-in-out;
+        visibility: hidden;
+        opacity: 0;
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "acf-partners",
+  "title": "Partners",
+  "description": "",
+  "category": "bibliotheek",
+  "icon": "superhero-alt",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-partners.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/ontdek-suriname/img/local/leeg.png",
+        "is_preview": true
+      }
+    }
+  }
+}

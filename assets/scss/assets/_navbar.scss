@@ -1,0 +1,82 @@
+.swiperhero>.swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+
+#sidecart-menu {
+  transition: transform 0.3s ease-in-out;
+
+  &.sidecart-hidden {
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
+.sidecart-overlay {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 9999;
+  background-color: #0A1F16;
+  opacity: 0;
+  pointer-events: none;
+
+  &.sidecart-overlay-active {
+    visibility: visible;
+    opacity: 0.3;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: all;
+  }
+
+}
+
+.menu-hover {
+  position: relative;
+  width: fit-content;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    background-image: url('/wp-content/themes/ontdek-suriname/img/local/line-menu.png');
+    background-repeat: no-repeat;
+    background-size: 100% 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    height: 20px;
+  }
+
+  &:hover {
+    &::after {
+      opacity: 1;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+  }
+}
+
+.country-selector li {
+  color: #fff !important;
+}
+
+@keyframes blink {
+
+  100%,
+  0% {
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 0;
+  }
+}
+
+.live-now svg {
+  animation: blink 1.2s infinite;
+}

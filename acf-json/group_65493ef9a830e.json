@@ -1,0 +1,145 @@
+{
+    "key": "group_65493ef9a830e",
+    "title": "Blok settings - header 1",
+    "fields": [
+        {
+            "key": "field_65493ef9aa4d4",
+            "label": "Blok settings",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_65493ef9aa4d9",
+            "label": "ID",
+            "name": "section_id",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "#",
+            "append": ""
+        },
+        {
+            "key": "field_65493ef9aa4dc",
+            "label": "Achtergrond",
+            "name": "achtergrond",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "bg-transwit": "Transparant (witte tekst)",
+                "bg-transzwart": "Transparant (zwarte tekst)",
+                "bg-wit": "Wit",
+                "bg-zwart": "Zwart",
+                "bg-beige": "Beige",
+                "bg-lichtgroen": "Licht groen",
+                "bg-groen": "Groen",
+                "bg-mosgroen": "Mos groen",
+                "bg-donkergroen": "Donker groen",
+                "bg-diepgroen": "Diep groen",
+                "bg-bruin": "Bruin",
+                "bg-lichtoranje": "Licht oranje",
+                "bg-lichtgrijs": "Licht grijs",
+                "bg-grijs": "Grijs",
+                "bg-donkergrijs": "Donker grijs",
+                "bg-black": "Dark blue",
+                "bg-deepgrey": "Deep grey",
+                "bg-basisgrey": "Basis grey",
+                "bg-lightgrey": "Light grey",
+                "bg-brightgrey": "Bright grey",
+                "bg-deepblue": "Deep blue",
+                "bg-basicblue": "Basic blue",
+                "bg-lightblue": "Light blue",
+                "bg-brightblue": "Bright blue",
+                "bg-darkturquoise": "Dark turquoise",
+                "bg-deepturquoise": "Deep turquoise",
+                "bg-basisturquoise": "Basis turquoise",
+                "bg-lightturquoise": "Light turquoise",
+                "bg-brightturquoise": "Bright turquoise",
+                "bg-basicred": "Basic red",
+                "bg-lightred": "Light red",
+                "bg-brightred": "Bright red"
+            },
+            "default_value": "bg-wit",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_65493ef9aa4e2",
+            "label": "Witruimte onderkant",
+            "name": "padding_bottom",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "pb-[30px] md:pb-[50px] lg:pb-[80px]": "Padding",
+                "pb-0": "None"
+            },
+            "default_value": "pb-[30px] md:pb-[50px] lg:pb-[80px]",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/acf-header-1"
+            }
+        ]
+    ],
+    "menu_order": 9999,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1699888245
+}

@@ -1,0 +1,22 @@
+{
+    "key": "ui_options_page_654be5b86789e",
+    "title": "Bedrijfsgegevens",
+    "active": true,
+    "menu_order": 0,
+    "page_title": "Bedrijfsgegevens",
+    "menu_slug": "bedrijfsgegevens",
+    "parent_slug": "none",
+    "advanced_configuration": 1,
+    "icon_url": "",
+    "menu_title": "",
+    "position": 84,
+    "redirect": 0,
+    "description": "",
+    "update_button": "Updaten",
+    "updated_message": "Options Updated",
+    "capability": "edit_posts",
+    "data_storage": "options",
+    "post_id": "",
+    "autoload": 0,
+    "modified": 1699516806
+}

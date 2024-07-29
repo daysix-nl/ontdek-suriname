@@ -1,0 +1,25 @@
+{
+  "name": "acf-video-slider",
+  "title": "Video slider",
+  "description": "",
+  "category": "bibliotheek",
+  "icon": "slides",
+  "keywords": ["block"],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-video-slider.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/ontdek-suriname/img/local/leeg.png",
+        "is_preview": true
+      }
+    }
+  }
+}
