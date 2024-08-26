@@ -706,6 +706,9 @@ video {
 .mb-10 {
   margin-bottom: 100px;
 }
+.mb-\[-12px\] {
+  margin-bottom: -12px;
+}
 .mb-\[-90px\] {
   margin-bottom: -90px;
 }
@@ -762,9 +765,6 @@ video {
 }
 .mt-\[8px\] {
   margin-top: 8px;
-}
-.mb-\[-12px\] {
-  margin-bottom: -12px;
 }
 .line-clamp-3 {
   overflow: hidden;
@@ -1838,6 +1838,10 @@ video {
     margin-right: unset;
   }
 
+  .md\:mb-\[-10px\] {
+    margin-bottom: -10px;
+  }
+
   .md\:mb-\[0px\] {
     margin-bottom: 0px;
   }
@@ -1872,14 +1876,6 @@ video {
 
   .md\:mt-\[unset\] {
     margin-top: unset;
-  }
-
-  .md\:mb-\[-12px\] {
-    margin-bottom: -12px;
-  }
-
-  .md\:mb-\[-10px\] {
-    margin-bottom: -10px;
   }
 
   .md\:line-clamp-1 {
