@@ -4,7 +4,7 @@
  */
 
 
- get_header(); ?>
+ get_header('home'); ?>
 
 <main class="pt-[33px]">
 <?php the_content(); ?>
